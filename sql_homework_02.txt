@@ -5,7 +5,7 @@ quantity (число больше 0)
 price
 in_stock (символ (Y/N))*/
 
-CREATE TABLE goods (
+CREATE TABLE Goods
   id int PRIMARY KEY,
   title varchar(30),
   quantity int CHECK(quantity > 0),
